@@ -8,9 +8,6 @@ module.exports = {
     },
     performance: { hints: false },
     mode: 'none',
-    plugins: [
-        new TerserPlugin()
-    ],
     module: {
         rules: [
 
